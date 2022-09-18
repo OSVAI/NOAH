@@ -1,3 +1,4 @@
+# NOAH: Improving Deep Neural Networks For Image Classification Via Non-Global Attentive Head
 By Chao Li, Aojun Zhou and Anbang Yao.
 
 This repository is an official PyTorch implementation of ["NOAH: Improving Deep Neural Networks For Image Classification Via Non-Global Attentive Head"](https://arxiv.org/abs/xxxx.xxxxx). 
