@@ -1,1 +1,1 @@
-**Note**: Code and models will be released soon.
+**Note**: Code and models will be coming.
