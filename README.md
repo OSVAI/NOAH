@@ -22,7 +22,11 @@ Following [this repository](https://github.com/pytorch/examples/tree/master/imag
 
 In the experiments, we construct our networks by replacing the existing head of each selected DNN architecture by a NOAH.
 
-Results for CNN backbones with NOAH trained on ImageNet.
+## Training and evaluation on CNN, ViT and MLP
+
+#### Please refer to README.md in the folders of [vit](vit) and [mlp](mlp) on how to train/evaluate ViT and MLP backbones with NOAH. 
+
+#### Here, we show the results and models for CNN backbones with NOAH trained on ImageNet. 
 
 | Backbones | Params | $N$ | $r$ | Top-1 Acc(%) | Google Drive                                                                                |
 |:--------- |:------:|:---:|:---:|:------------:|:-------------------------------------------------------------------------------------------:|
@@ -102,10 +106,6 @@ python -m torch.distributed.launch --nproc_per_node={ngpus} main.py \
 --arch {model name} --data {path to dataset} --use_noah --head_num {number of heads} \
 --key_ratio {key ratio of POCA} --evaluate --resume {path to model}
 ```
-
-## Training and evaluation on ViT and MLP
-
-#### Please refer to README.md in the folders of [vit](vit) and [mlp](mlp) on how to train/evaluate ViT and MLP backbones with NOAH.
 
 ## License
 
