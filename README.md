@@ -26,7 +26,7 @@ In the experiments, we construct our networks by replacing the existing head of 
 
 #### Please refer to README.md in the folders of [vit](vit) and [mlp](mlp) on how to train/evaluate ViT and MLP backbones with NOAH. 
 
-#### Here, we show the results and models for CNN backbones with NOAH trained on ImageNet. 
+Here, we show the results and models for CNN backbones with NOAH trained on ImageNet. 
 
 | Backbones | Params | $N$ | $r$ | Top-1 Acc(%) | Google Drive                                                                                |
 |:--------- |:------:|:---:|:---:|:------------:|:-------------------------------------------------------------------------------------------:|
@@ -53,8 +53,6 @@ In the experiments, we construct our networks by replacing the existing head of 
 | + NOAH              | 2.95M  | 8   | 1/4 | 68.92        | [model](https://drive.google.com/file/d/1uFOV7Qa_IjY6clW6av0Nj4i0H87evobJ/view?usp=sharing) |
 | ShuffleNetV2 (1.0×) | 2.28M  | -   | -   | 69.43        | [model](https://drive.google.com/file/d/1Sa5jkeotyYkL1QXRcxhSLwaJ0Oq8i1O2/view?usp=sharing) |
 | + NOAH              | 2.29M  | 8   | 1/4 | 70.72        | [model](https://drive.google.com/file/d/1F1iSWcaqDvLy32pCBnUAHsXvNufudawL/view?usp=sharing) |
-
-#### Please refer to README.md in the folders of [vit](vit) and [mlp](mlp) for results and models of ViT and MLP backbones with NOAH.
 
 ## Training
 
