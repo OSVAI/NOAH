@@ -1,6 +1,6 @@
 # Non-glObal Attentive Head
 
-This repository is an official implementation of "NOAH: Learning Pairwise Object Category Attentions for Image Classification". % Experiments are conducted on the [ILSVRC 2012](http://www.image-net.org) benchmark.
+This repository is an official implementation of "NOAH: Learning Pairwise Object Category Attentions for Image Classification". <!-- Experiments are conducted on the [ILSVRC 2012](http://www.image-net.org) benchmark.-->
 
 <p align="center"><img src="fig/Fig_Overall_Architecture.jpg" width="1000" /></p>
 The macro-structure of DNNs with a Non-glObal Attentive Head (NOAH). Unlike popular heads based on the global feature encoding, NOAH relies on Pairwise Object Category Attentions (POCAs) learnt at local to global scales via a neat association of feature split (two levels), interaction and aggregation operations, taking the feature maps from the last layer of a CNN, ViT or MLP backbone as the input.
